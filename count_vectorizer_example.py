@@ -19,5 +19,3 @@ print(X)
 
 print(count_vect.get_feature_names())
 
-X_test = count_vect.transform(test_text)
-print(X_test.toarray())
