@@ -9,7 +9,6 @@ text = [
 ]
 test_text = ['My name is Robert']
 
-count_vect = CountVectorizer(lowercase=True, analyzer='word')
 count_vect.fit(text)  # learn the vocabulary
 print(count_vect.vocabulary_)
 
