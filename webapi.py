@@ -69,7 +69,6 @@ def show_results():
 def add_train_data():
     data = request.args.get("data")
     data = base64.b64decode(data)
-    print(data)
     data = data.decode("utf-8")
     data = json.loads(data)
     print(data)
