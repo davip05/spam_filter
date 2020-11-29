@@ -73,7 +73,7 @@ def add_train_data():
     data = json.loads(data)
     print(data)
     row = pandas.DataFrame(data)
-    print(row)
+    print("WebApi branch")
     row = row[["type", "text"]]
     row.to_csv('sms_spam.csv', mode='a', header=False, index = False)
     
